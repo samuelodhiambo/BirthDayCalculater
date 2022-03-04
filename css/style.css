@@ -88,6 +88,10 @@ nav {
         display: none;
     }
 
+    .menu-icon {
+        padding: 10px 20px;
+    }
+
     .icon {
         display: block;
         background-color: gray;
@@ -102,7 +106,7 @@ nav {
         width: 18px;
         height: 2px;
         position: absolute;
-        top: 9px;
+        top: 26px;
         user-select: none;
     }
 
@@ -112,8 +116,18 @@ nav {
         width: 18px;
         height: 2px;
         position: absolute;
-        top: 5px;
+        top: 32px;
         user-select: none;
+    }
+
+    #nav-toggle:checked ~ ul.nav-menu {
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 69px;
+        background-color: rgba(247, 82, 112, 1);
+        width: 100%;
+        padding: 0px 100px;
     }
 
 }
