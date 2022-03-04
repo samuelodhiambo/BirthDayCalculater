@@ -137,4 +137,9 @@ nav {
 
 }
 
-/* #f75270 */
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 0px 30px;
+    }
+
+}
