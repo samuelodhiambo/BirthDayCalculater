@@ -20,6 +20,8 @@ body {
 .bg5 {
     background-color: rgba(247, 82, 112, 1);
     padding: 20px;
+    position: sticky;
+    top: 0px;
 }
 
 .container {
