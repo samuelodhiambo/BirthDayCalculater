@@ -121,6 +121,11 @@ nav {
     cursor: pointer;
 }
 
+.flex-between {
+    justify-content: space-between;
+    color: white;
+}
+
 @media only screen and (max-width: 1200px) {
     .nav-menu {
         display: none;
