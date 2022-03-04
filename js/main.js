@@ -19,3 +19,9 @@ const femaleNames = {
     "Friday": "Afua",
     "Saturday": "Ama"
 }
+
+var form = document.getElementById("bdateform")
+
+form.addEventListener('submit', function(event){
+    
+})
