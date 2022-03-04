@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .bg5 {
@@ -62,6 +62,21 @@ nav {
 
 #nav-toggle {
     display: none;
+}
+
+.sec1-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1-text .text {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: xx-large;
 }
 
 /* #f75270 */
