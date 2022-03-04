@@ -10,7 +10,7 @@ body {
 }
 
 .section1 {
-    background-image: linear-gradient(rgba(247, 82, 112, .5), rgba(247, 82, 112, .5)), url(../images/banner.jpg);
+    background-image: linear-gradient(rgba(20, 41, 20, .5), rgba(20, 41, 20, .5)), url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -18,7 +18,7 @@ body {
 }
 
 .bg5 {
-    background-color: rgba(247, 82, 112, 1);
+    background-color: rgba(20, 41, 20, 1);
     padding: 20px;
     position: sticky;
     top: 0px;
@@ -36,7 +36,7 @@ nav {
 
 .title a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .nav-menu {
@@ -52,7 +52,7 @@ nav {
 .nav-menu li a {
     text-decoration: none;
     font-size: large;
-    color: black;
+    color: white;
 }
 
 .nav-menu li a.active {
@@ -112,12 +112,13 @@ nav {
 }
 
 #submit {
-    border: 1px solid rgba(247, 82, 112, 1);
+    border: 1px solid rgba(20, 41, 20, 1);
     border-style: double;
     font-size: 1.5rem;
-    background-color: rgba(247, 82, 112, .5);
+    background-color: rgba(20, 41, 20, .5);
     padding: 5px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {
