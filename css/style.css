@@ -8,6 +8,19 @@ body {
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+.section1 {
+    background-image: linear-gradient(rgba(247, 82, 112, .5), rgba(247, 82, 112, .5)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    height: 500px;
+}
+
+.bg5 {
+    background-color: rgba(247, 82, 112, 1);
+    padding: 20px;
+}
+
 .container {
     margin: 0px 100px;
 }
@@ -40,13 +53,15 @@ nav {
 }
 
 .nav-menu li a.active {
-    text-decoration: underline blue 3px;
+    text-decoration: underline white 3px;
 }
 
 .nav-menu li a:hover {
-    text-decoration: underline blue 5px;
+    text-decoration: underline white 5px;
 }
 
 #nav-toggle {
     display: none;
 }
+
+/* #f75270 */
