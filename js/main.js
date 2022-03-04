@@ -32,6 +32,23 @@ form.addEventListener('submit', function(event){
     var MM = Number(date.split("-")[1])
     var DD = Number(date.split("-")[2])
 
-    var day1 = ( ( Math.trunc((CC/4)) -(2*CC)-1) + ((5*Math.trunc(YY/4)) ) + ((26*Math.trunc((MM+1)/10))) + DD ) % 7
-    console.log(day1)
+    var day1 = ( ( ( Math.floor(CC/4) ) -(2*CC)-1) + ((5*Math.floor(YY/4)) ) + (( Math.floor(26*(MM+1)/10) )) + DD ) % 7
+    // console.log(day1)
+
+    if (new Date(date) > new Date(Date())) {
+        alert("That's an unborn baby...")
+    }
+
+    var d = new Date(date).getDay()
+    var day = weekday[d]
+    var akanName = ""
+    if (gender == 'male') {
+        akanName = maleNames[day]
+    }
+    if (gender == 'female') {
+        akanName = femaleNames[day]
+    }
+
+    alert(gender.charAt(0).toUpperCase() + gender.substring(1, gender.length) + " born on " + day + " so the Akan Name is: " + akanName)
+    
 })
