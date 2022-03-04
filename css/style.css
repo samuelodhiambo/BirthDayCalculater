@@ -147,4 +147,8 @@ nav {
         margin: 0px 30px;
     }
 
+    .rw {
+        flex-direction: column;
+    }
+
 }
