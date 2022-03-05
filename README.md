@@ -29,7 +29,7 @@
 
 ## Licence
 
-[MIT License](LICENSE.md)
+[MIT License](LICENSE)
 
 [Go Back to the top](#birthday-and-akan-name-generator)
 
